@@ -171,7 +171,7 @@ PATH="$BUILD_DIR/bin:$PATH"
 echo "-----> Vendoring node into slug"
 mkdir -p "$BUILD_DIR/bin"
 cp "$VENDORED_NODE/bin/node" "$BUILD_DIR/bin/node"
-cp "$VENDORED_PHANTOM/bin/phantomjs" "$BUILD_DIR/bin/phantomjs"
+cp "$VENDORED_PHANTOM/phantomjs-1.8.1-linux-x86_64/bin/phantomjs" "$BUILD_DIR/bin/phantomjs"
 
 # setting up paths for building
 PATH="$VENDORED_SCONS:$VENDORED_NODE/bin:$PATH"
