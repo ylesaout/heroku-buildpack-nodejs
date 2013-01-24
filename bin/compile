@@ -104,7 +104,7 @@ function phantom_download() {
 
   mkdir -p $location
   url="http://phantomjs.googlecode.com/files/phantomjs-1.8.1-linux-x86_64.tar.bz2"
-  curl $url -s -o  -  | tar xzf - -C $location
+  curl $url -s -o  -  | tar -xjf - -C $location
 }
 
 bootstrap_node=$(mktmpdir bootstrap_node)
