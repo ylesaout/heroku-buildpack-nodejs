@@ -1,0 +1,817 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cre",
+				"createEvent"
+			],
+			[
+				"get",
+				"getHours"
+			],
+			[
+				"broa",
+				"broadcastDate"
+			],
+			[
+				"broadc",
+				"broadcastHour"
+			],
+			[
+				"bra",
+				"broadcastHour"
+			],
+			[
+				"broadcastD",
+				"broadcastDate"
+			],
+			[
+				"broadcast",
+				"broadcastDate"
+			],
+			[
+				"ep",
+				"episodeNumber"
+			],
+			[
+				"Ep",
+				"Episode"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"expr",
+				"expressLogger"
+			],
+			[
+				"de",
+				"destinationNameRoot"
+			],
+			[
+				"show",
+				"showId"
+			],
+			[
+				"con",
+				"conf"
+			],
+			[
+				"el",
+				"elemSelected"
+			],
+			[
+				"lo",
+				"log"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"epi",
+				"episodeId"
+			],
+			[
+				"epe",
+				"episode"
+			],
+			[
+				"co",
+				"conf"
+			],
+			[
+				"pro",
+				"processData"
+			],
+			[
+				"dest",
+				"destUrl"
+			],
+			[
+				"com",
+				"commonUrl"
+			],
+			[
+				"sh",
+				"showIDParts"
+			],
+			[
+				"ov",
+				"overlay-container"
+			],
+			[
+				"ext",
+				"extOverlay"
+			],
+			[
+				"V",
+				"view"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"ge",
+				"genres"
+			],
+			[
+				"h",
+				"historyPaths"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"c",
+				"categories"
+			],
+			[
+				"vie",
+				"views"
+			],
+			[
+				"catego",
+				"category"
+			],
+			[
+				"app",
+				"apply"
+			],
+			[
+				"comm",
+				"commonFns"
+			],
+			[
+				"si",
+				"singletons"
+			],
+			[
+				"cha",
+				"chartList"
+			],
+			[
+				"cat",
+				"category"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"li",
+				"limit"
+			],
+			[
+				"pat",
+				"pathToId"
+			],
+			[
+				"ch",
+				"chartTypes"
+			],
+			[
+				"mo",
+				"models"
+			],
+			[
+				"ini",
+				"initialize"
+			],
+			[
+				"act",
+				"active"
+			],
+			[
+				"chart",
+				"chartTypes"
+			],
+			[
+				"Co",
+				"Collection"
+			],
+			[
+				"tag",
+				"tagName"
+			],
+			[
+				"ba",
+				"basePath"
+			],
+			[
+				"p",
+				"path"
+			],
+			[
+				"n",
+				"navigate"
+			],
+			[
+				"in",
+				"initialized"
+			],
+			[
+				"pr",
+				"prototype"
+			],
+			[
+				"men",
+				"menuItem"
+			],
+			[
+				"menu",
+				"menuItem"
+			],
+			[
+				"g",
+				"genreToId"
+			],
+			[
+				"ma",
+				"maps"
+			],
+			[
+				"CatList",
+				"CatListView"
+			],
+			[
+				"re",
+				"response"
+			],
+			[
+				"appL",
+				"appListView"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"su",
+				"subViews"
+			],
+			[
+				"coll",
+				"collection"
+			],
+			[
+				"home",
+				"homeCharts"
+			],
+			[
+				"Char",
+				"ChartsView"
+			],
+			[
+				"init",
+				"initialize"
+			],
+			[
+				"charts",
+				"ChartsView"
+			],
+			[
+				"build",
+				"buildPath"
+			],
+			[
+				"cu",
+				"currentVersion"
+			],
+			[
+				"env",
+				"envObject"
+			],
+			[
+				"commi",
+				"commiting"
+			],
+			[
+				"grunt",
+				"gruntTasks"
+			],
+			[
+				"to",
+				"token"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"af",
+				"afTokenPath"
+			],
+			[
+				"me",
+				"memory"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"vmc",
+				"vmcTarget"
+			],
+			[
+				"is",
+				"isFileSync"
+			],
+			[
+				"req",
+				"reqObject"
+			],
+			[
+				"ur",
+				"urlStatus"
+			],
+			[
+				"us",
+				"us-east-1a"
+			],
+			[
+				"ins",
+				"instancesNumber"
+			],
+			[
+				"Allo",
+				"AllowedValues"
+			],
+			[
+				"file",
+				"fileList"
+			],
+			[
+				"for",
+				"forEach"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "README.md",
+			"settings":
+			{
+				"buffer_size": 2470,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 387.0,
+		"selected_items":
+		[
+			[
+				"pac",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/ybol8476/workspaces/seo4ajax/crawler/Procfile",
+		"/Users/ybol8476/workspaces/seo4ajax/crawler/package.json",
+		"/Users/ybol8476/workspaces/seo4ajax/console/config.js",
+		"/Users/ybol8476/workspaces/seo4ajax/api/config.js",
+		"/Users/ybol8476/workspaces/seo4ajax/console/package.json",
+		"/Users/ybol8476/workspaces/seo4ajax/api/package.json",
+		"/Users/ybol8476/workspaces/seo4ajax/console/Procfile",
+		"/Users/ybol8476/workspaces/seo4ajax/api/Procfile",
+		"/Users/ybol8476/workspaces/seo4ajax/common/package.json",
+		"/Users/ybol8476/workspaces/seo4ajax/api/index.js",
+		"/Users/ybol8476/workspaces/seo4ajax/bot/package.json",
+		"/Users/ybol8476/workspaces/seo4ajax/scraper/package.json",
+		"/Users/ybol8476/workspaces/seo4ajax/crawler/index.js",
+		"/Users/ybol8476/workspaces/seo4ajax/crawler/core/server.js",
+		"/Users/ybol8476/workspaces/seo4ajax/crawler/core/crawler.js",
+		"/Users/ybol8476/workspaces/seo4ajax/admin/package.json",
+		"/Users/ybol8476/workspaces/seo4ajax/admin/index.js",
+		"/Users/ybol8476/workspaces/seo4ajax/admin/core/business/validate.js",
+		"/Users/ybol8476/workspaces/seo4ajax/admin/core/server.js",
+		"/Users/ybol8476/workspaces/seo4ajax/admin/.gitignore",
+		"/Users/ybol8476/workspaces/seo4ajax/api/server.js",
+		"/Users/ybol8476/workspaces/seo4ajax/console/index.js",
+		"/Users/ybol8476/workspaces/seo4ajax/console/core/server.js",
+		"/Users/ybol8476/workspaces/seo4ajax/common/lib/index.js",
+		"/Users/ybol8476/workspaces/seo4ajax/common/lib/database/node_modules/mongodb/lib/mongodb/index.js",
+		"/Users/ybol8476/workspaces/seo4ajax/scraper/config.js",
+		"/Users/ybol8476/workspaces/seo4ajax/scraper/core/server.js",
+		"/Users/ybol8476/workspaces/marketSite/features/index.html",
+		"/Users/ybol8476/workspaces/marketSite/about/index.html",
+		"/Users/ybol8476/workspaces/marketSite/index.html",
+		"/Users/ybol8476/workspaces/pblv-cms/js/app.js",
+		"/Users/ybol8476/workspaces/pblv-cms/less/font-awesome/font-awesome.less",
+		"/Users/ybol8476/workspaces/pblv-cms/less/bootstrap/responsive.less",
+		"/Users/ybol8476/workspaces/pblv-cms/less/bootstrap/variables.less",
+		"/Users/ybol8476/workspaces/pblv-cms/less/app/app-bootstrap.less",
+		"/Users/ybol8476/workspaces/pblv-cms/less/bootstrap/bootstrap.less",
+		"/Users/ybol8476/workspaces/pblv-cms/css2/app.css",
+		"/Users/ybol8476/workspaces/pblv-cms/less/bootstrap/buttons.less",
+		"/Users/ybol8476/workspaces/pblv-cms/less/bootstrap/reset.less",
+		"/Users/ybol8476/workspaces/pblv-cms/grunt.js",
+		"/Users/ybol8476/workspaces/pblv-cms/css/app.css",
+		"/Users/ybol8476/workspaces/pblv-cms/server.js",
+		"/Users/ybol8476/workspaces/pblv-cms/package.json",
+		"/Users/ybol8476/Documents/AugmentedTV/thirdpartie.html",
+		"/Users/ybol8476/workspaces/ajax-tests/pure-html/index.html",
+		"/Users/ybol8476/workspaces/ajax-tests/mixed-jsonp-json/index.html",
+		"/Users/ybol8476/workspaces/ajax-tests/server.js",
+		"/Users/ybol8476/workspaces/ajax-tests/mixed-jsonp-json/data/singles.json",
+		"/Users/ybol8476/workspaces/ajax-tests/mixed-jsonp-json/data/biography.json",
+		"/Users/ybol8476/workspaces/ajax-tests/mixed-jsonp-json/data/albums.json",
+		"/Users/ybol8476/workspaces/ajax-tests/servers/mixed-jsonp-json.js",
+		"/Users/ybol8476/workspaces/ajax-tests/mixed-jsonp-json/javascripts/app.js",
+		"/Users/ybol8476/workspaces/ajax-tests/servers/redirect.js",
+		"/Users/ybol8476/workspaces/ajax-tests/servers/pure-html.js",
+		"/Users/ybol8476/workspaces/ajax-tests/servers/hash-bang.js",
+		"/Users/ybol8476/workspaces/ajax-tests/servers/pushstate.js",
+		"/Users/ybol8476/workspaces/ajax-tests/snapshot-hashbang/sitemap.xml",
+		"/Users/ybol8476/workspaces/ajax-tests/snapshot-pushstate/sitemap.xml",
+		"/Users/ybol8476/workspaces/ajax-tests/mixed-noajax-json/sitemap.xml",
+		"/Users/ybol8476/workspaces/ajax-tests/pure-ajax-json/sitemap.xml",
+		"/Users/ybol8476/workspaces/ajax-tests/mixed-ajax-html/sitemap.xml",
+		"/Users/ybol8476/workspaces/ajax-tests/package.json",
+		"/Users/ybol8476/workspaces/ajax-tests/mixed-ajax-html/index.html",
+		"/Users/ybol8476/workspaces/ajax-tests/snapshot-hashbang/robots.txt",
+		"/Users/ybol8476/workspaces/ajax-tests/mixed-noajax-json/javascripts/app.js",
+		"/Users/ybol8476/workspaces/ajax-tests/mixed-noajax-json/index.html",
+		"/Users/ybol8476/workspaces/ajax-tests/pure-ajax-json/data/biography.json",
+		"/Users/ybol8476/workspaces/ajax-tests/pure-ajax-json/index.html",
+		"/Users/ybol8476/workspaces/ajax-tests/pure-ajax-json/javascripts/app.js",
+		"/Users/ybol8476/workspaces/ajax-tests/snapshot-hashbang/javascripts/app.js",
+		"/Users/ybol8476/workspaces/ajax-tests/snapshot-hashbang/index.html",
+		"/Users/ybol8476/workspaces/ajax-tests/snapshot-hashbang/data/biography.json",
+		"/Users/ybol8476/workspaces/ajax-tests/servers/mixed-ajax-html.js",
+		"/Users/ybol8476/workspaces/ajax-tests/servers/mixed-noajax-json.js",
+		"/Users/ybol8476/workspaces/ajax-tests/servers/pure-js.js",
+		"/Users/ybol8476/workspaces/ajax-tests/pure-ajax-json/data/albums.json",
+		"/Users/ybol8476/workspaces/ajax-tests/pure-ajax-json/data/singles.json",
+		"/Users/ybol8476/workspaces/ajax-tests/mixed-noajax-html/biography.html",
+		"/Users/ybol8476/workspaces/ajax-tests/templates/singles.html",
+		"/Users/ybol8476/workspaces/ajax-tests/templates/albums.html",
+		"/Users/ybol8476/workspaces/ajax-tests/templates/biography.html",
+		"/Users/ybol8476/workspaces/ajax-tests/README.md",
+		"/Users/ybol8476/workspaces/ajax-tests/Procfile",
+		"/Users/ybol8476/workspaces/ajax-tests/servers/mixed-ajax-json.js",
+		"/Users/ybol8476/workspaces/ajax-tests/servers/mixed-noajax-html.js",
+		"/Users/ybol8476/Google Drive/reveal.js-master/index.html",
+		"/Users/ybol8476/workspaces/appCharts/sass/appCharts/sass/_overide.scss",
+		"/Users/ybol8476/workspaces/appCharts/index.html",
+		"/Users/ybol8476/workspaces/appCharts/sass/appCharts/sass/_settings.scss",
+		"/Users/ybol8476/workspaces/appCharts/png/gplaypattern.png",
+		"/Users/ybol8476/workspaces/appCharts/css/foundation.min.css",
+		"/Users/ybol8476/workspaces/appCharts/foundation/index.html",
+		"/Users/ybol8476/workspaces/appCharts/js/initData.js",
+		"/Users/ybol8476/workspaces/appCharts/server.js",
+		"/Users/ybol8476/workspaces/appCharts/js/genres.json",
+		"/Users/ybol8476/workspaces/appCharts/js/test2.js",
+		"/Users/ybol8476/workspaces/appCharts/js/test.js",
+		"/Users/ybol8476/Documents/Deezam/mockup.html",
+		"/Users/ybol8476/workspaces/phantom/front/user/build/front/node_modules/express/node_modules/connect/lib/middleware/csrf.js",
+		"/Users/ybol8476/workspaces/phantom/tools/gruntTasks/tasksLoader.js",
+		"/Users/ybol8476/workspaces/phantom/tools/gruntTasks/vmcTasks.js",
+		"/Users/ybol8476/workspaces/phantom/tools/gruntTasks/vmcHelper.js",
+		"/Users/ybol8476/workspaces/phantom/front/user/core/server.js",
+		"/Users/ybol8476/workspaces/phantom/scraper/index.js",
+		"/Users/ybol8476/workspaces/phantom/config.js",
+		"/Users/ybol8476/workspaces/phantom/common/database/users/index.js",
+		"/Users/ybol8476/workspaces/phantom/front/user/package.json",
+		"/Users/ybol8476/workspaces/phantom/front/user/build/cloudfoundry.json",
+		"/Users/ybol8476/workspaces/phantom/front/user/build/package.json",
+		"/Users/ybol8476/workspaces/phantom/front/user/build/front/user/index.js",
+		"/Users/ybol8476/workspaces/phantom/front/user/build/front/user/core/server.js",
+		"/Users/ybol8476/workspaces/phantom/front/user/grunt.js",
+		"/Users/ybol8476/workspaces/phantom/front/admin/grunt.js",
+		"/Users/ybol8476/workspaces/phantom/scraper/grunt.js",
+		"/Users/ybol8476/workspaces/phantom/crawler/grunt.js",
+		"/Users/ybol8476/workspaces/refApp/index.js",
+		"/Users/ybol8476/workspaces/phantom/tools/gruntTasks/gitTasks.js",
+		"/Users/ybol8476/workspaces/phantom/front/bot/grunt.js",
+		"/Users/ybol8476/workspaces/phantom/tools/gruntTasks/copy.js",
+		"/Users/ybol8476/workspaces/phantom/.afToken",
+		"/Users/ybol8476/workspaces/phantom/tools/gruntTasks/node_modules/gift/lib/repo.js",
+		"/Users/ybol8476/workspaces/phantom/tools/gruntTasks/gitHelper.js",
+		"/Users/ybol8476/workspaces/phantom/tools/gruntTasks/node_modules/grunt-contrib-clean/tasks/clean.js",
+		"/Users/ybol8476/workspaces/phantom/front/bot/package.json",
+		"/Users/ybol8476/workspaces/phantom/front/admin/package.json",
+		"/Users/ybol8476/workspaces/phantom/.gitignore",
+		"/Users/ybol8476/workspaces/phantom/tools/gruntTasks/node_modules/gift/lib/git.js",
+		"/Users/ybol8476/workspaces/phantom/tools/gruntTasks/bump.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/ybol8476/workspaces/ajax-tests",
+			"/Users/ybol8476/workspaces/phantom/node_modules/express/node_modules/connect/lib",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"focus",
+			":hover",
+			"justif",
+			"nav",
+			"mixed-jsonp-json.js",
+			"buzzmyfanclub",
+			"heroku",
+			"nolwenn",
+			"singles.html",
+			"single.html",
+			"'",
+			".reveal.center",
+			".reveal.ce",
+			"highl",
+			"white",
+			"h5",
+			"h5 small",
+			"small",
+			"h5",
+			"\".inner\"",
+			".inner",
+			"inner",
+			"wrapper",
+			"console",
+			"historyPaths",
+			"ellipsis",
+			"overflow",
+			"console",
+			"crea",
+			"create",
+			"kurIs",
+			"defaultValue",
+			"push",
+			"pull",
+			"prefix",
+			"branch",
+			"db.getUrl(domain",
+			"db.retrieve(domain",
+			"db.get(domain",
+			"db.removeUrls(domain",
+			"db.update(domain",
+			"db.update(",
+			"elete existing and non existing urls",
+			"get some url statuses",
+			"urlsList",
+			"send",
+			"conso",
+			"userCreation.js",
+			"1a",
+			"getUrl",
+			"deployConst",
+			"It's saved!",
+			"user",
+			"scraper",
+			"environment",
+			"save"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"herokuapp",
+			"\"",
+			"db.getUrl(user, domain",
+			"db.retrieve(user, domain",
+			"db.removeUrls(user, domain",
+			"db.update(user, domain"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "README.md",
+					"settings":
+					{
+						"buffer_size": 2470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"bitwise": true,
+								"browser": false,
+								"curly": true,
+								"eqnull": true,
+								"evil": false,
+								"forin": true,
+								"indent": 4.0,
+								"latedef": true,
+								"laxbreak": true,
+								"noarg": true,
+								"node": true,
+								"noempty": true,
+								"regexdash": true,
+								"strict": false,
+								"sub": true,
+								"trailing": true,
+								"undef": true,
+								"wsh": false
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 0.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 198.0,
+	"status_bar_visible": true
+}
