@@ -151,7 +151,7 @@ CACHE_TARGET_DIR="$BUILD_DIR/node_modules"
 NODE_PACKAGE="http://${S3_BUCKET}.s3.amazonaws.com/nodejs-${NODE_VERSION}.tgz"
 NPM_PACKAGE="http://${S3_BUCKET}.s3.amazonaws.com/npm-${NPM_VERSION}.tgz"
 SCONS_PACKAGE="http://${S3_BUCKET}.s3.amazonaws.com/scons-${SCONS_VERSION}.tgz"
-PHANTOM_PACKAGE="http://phantomjs.googlecode.com/files/phantomjs-1.8.1-linux-x86_64.tar.bz2"
+PHANTOM_PACKAGE="http://phantomjs.googlecode.com/files/phantomjs-1.8.2-linux-x86_64.tar.bz2"
 
 # vendor directories
 VENDORED_NODE="$(mktmpdir node)"
@@ -171,7 +171,7 @@ PATH="$BUILD_DIR/bin:$PATH"
 echo "-----> Vendoring node into slug"
 mkdir -p "$BUILD_DIR/bin"
 cp "$VENDORED_NODE/bin/node" "$BUILD_DIR/bin/node"
-cp "$VENDORED_PHANTOM/phantomjs-1.8.1-linux-x86_64/bin/phantomjs" "$BUILD_DIR/bin/phantomjs"
+cp "$VENDORED_PHANTOM/phantomjs-1.8.2-linux-x86_64/bin/phantomjs" "$BUILD_DIR/bin/phantomjs"
 
 # setting up paths for building
 PATH="$VENDORED_SCONS:$VENDORED_NODE/bin:$PATH"
