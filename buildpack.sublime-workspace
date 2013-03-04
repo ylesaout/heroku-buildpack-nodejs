@@ -367,7 +367,7 @@
 			"file": "bin/compile",
 			"settings":
 			{
-				"buffer_size": 5347,
+				"buffer_size": 5384,
 				"line_ending": "Unix"
 			}
 		}
@@ -766,15 +766,15 @@
 					"file": "bin/compile",
 					"settings":
 					{
-						"buffer_size": 5347,
+						"buffer_size": 5384,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4769,
-								4769
+								2472,
+								2472
 							]
 						],
 						"settings":
@@ -883,7 +883,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2599.0,
+						"translation.y": 1528.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
