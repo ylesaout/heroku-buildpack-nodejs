@@ -60,15 +60,17 @@ function resolve_version() {
   requested_version="$2"
   default_version="$3"
 
+  args=""
+  for version in $available_versions; do args="${args} -v \"${version}\""; done
+
   if [ "$2" == "" ]; then
-    echo $3
+    args="${args} -r \"${default_version}\"";
   else
-    args=""
-    for version in $available_versions; do args="${args} -v \"${version}\""; done
-    for version in $requested_version; do args="${args} -r \"${version}\""; done
-    evaluated_version=$(eval $bootstrap_node/bin/node $LP_DIR/vendor/node-semver/bin/semver ${args} || echo "")
-    echo "$evaluated_version" | tail -n 1
+    args="${args} -r \"${requested_version}\"";
   fi
+
+  evaluated_versions=$(eval $bootstrap_node/bin/node $LP_DIR/vendor/node-semver/bin/semver ${args} || echo "")
+  echo "$evaluated_versions" | tail -n 1
 }
 
 function package_engine_version() {
@@ -103,9 +105,17 @@ function phantom_download() {
   location="$1"
 
   mkdir -p $location
-  url="http://phantomjs.googlecode.com/files/phantomjs-1.8.2-linux-x86_64.tar.bz2"
+  url="https://phantomjs.googlecode.com/files/phantomjs-1.9.0-linux-x86_64.tar.bz2"
   curl $url -s -o  -  | tar xjf - -C $location
 }
+
+function cat_npm_debug_log() {
+  if [ -f $BUILD_DIR/npm-debug.log ]; then
+    cat $BUILD_DIR/npm-debug.log
+  fi
+}
+
+trap cat_npm_debug_log EXIT
 
 bootstrap_node=$(mktmpdir bootstrap_node)
 package_download "nodejs" "0.4.7" $bootstrap_node
@@ -115,8 +125,8 @@ declare -A engine_versions
 declare -A engine_defaults
 declare -A engine_requests
 
-engine_defaults["node"]="0.4.7"
-engine_defaults["npm"]="1.0.106"
+engine_defaults["node"]="0.10.x"
+engine_defaults["npm"]="1.2.x"
 
 engine_versions["node"]=$(manifest_versions "nodejs")
 engine_requests["node"]=$(package_engine_version "node")
@@ -131,9 +141,6 @@ if [ "${engine_requests["node"]}" == "" ]; then
   echo
   echo "WARNING: No version of Node.js specified in package.json, see:" | indent
   echo "https://devcenter.heroku.com/articles/nodejs-versions" | indent
-  echo
-  echo "WARNING: The default version of Node.js and npm on Heroku will begin" | indent
-  echo "tracking the latest stable release starting September 1, 2012."  | indent
   echo
 fi
 
@@ -151,7 +158,7 @@ CACHE_TARGET_DIR="$BUILD_DIR/node_modules"
 NODE_PACKAGE="http://${S3_BUCKET}.s3.amazonaws.com/nodejs-${NODE_VERSION}.tgz"
 NPM_PACKAGE="http://${S3_BUCKET}.s3.amazonaws.com/npm-${NPM_VERSION}.tgz"
 SCONS_PACKAGE="http://${S3_BUCKET}.s3.amazonaws.com/scons-${SCONS_VERSION}.tgz"
-PHANTOM_PACKAGE="http://phantomjs.googlecode.com/files/phantomjs-1.8.2-linux-x86_64.tar.bz2"
+PHANTOM_PACKAGE="https://phantomjs.googlecode.com/files/phantomjs-1.9.0-linux-x86_64.tar.bz2"
 
 # vendor directories
 VENDORED_NODE="$(mktmpdir node)"
@@ -164,6 +171,8 @@ echo "-----> Fetching Node.js binaries"
 package_download "nodejs" "${NODE_VERSION}" "${VENDORED_NODE}"
 package_download "npm" "${NPM_VERSION}" "${VENDORED_NPM}"
 package_download "scons" "${SCONS_VERSION}" "${VENDORED_SCONS}"
+
+echo "-----> Fetching Phantomjs binaries"
 phantom_download "${VENDORED_PHANTOM}"
 
 # vendor node into the slug
@@ -171,7 +180,8 @@ PATH="$BUILD_DIR/bin:$PATH"
 echo "-----> Vendoring node into slug"
 mkdir -p "$BUILD_DIR/bin"
 cp "$VENDORED_NODE/bin/node" "$BUILD_DIR/bin/node"
-cp "$VENDORED_PHANTOM/phantomjs-1.8.2-linux-x86_64/bin/phantomjs" "$BUILD_DIR/bin/phantomjs"
+echo "-----> Vendoring phantomjs into slug"
+cp "$VENDORED_PHANTOM/phantomjs-1.9.0-linux-x86_64/bin/phantomjs" "$BUILD_DIR/bin/phantomjs"
 
 # setting up paths for building
 PATH="$VENDORED_SCONS:$VENDORED_NODE/bin:$PATH"
