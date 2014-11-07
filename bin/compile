@@ -106,7 +106,7 @@ function phantom_download() {
 
   mkdir -p $location
   url="https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-1.9.8-linux-x86_64.tar.bz2"
-  curl $url -s -o  -  | tar xjf - -C $location
+  curl -L $url -s -o  -  | tar xjf - -C $location
 }
 
 function cat_npm_debug_log() {
